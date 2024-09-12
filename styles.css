@@ -97,6 +97,11 @@ body > header > nav > ul {
 
 /* Body */
 /* Centering the article */
+body {
+    background-color: peachpuff;
+}
+
+
 body > main article {
     width: 70%;
     margin: auto;
@@ -233,6 +238,10 @@ body > main article {
     margin-bottom: 60px;
 }
 
+
+#ig {
+    margin-bottom: 60px;
+}
 /* Separating FAQs individually */
 /*#no1{
     margin-right: 100px;
