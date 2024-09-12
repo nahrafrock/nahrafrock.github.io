@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const images = document.querySelectorAll("img");
 
     for (const image of images){
-        fetch("C:\Users\ABinahmadpuad001\Downloads")
+        fetch(N/A)
         .then(response => response.json())
         .then(data => {
             image.src = data.message
