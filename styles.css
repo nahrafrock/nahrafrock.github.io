@@ -98,7 +98,7 @@ body > header > nav > ul {
 /* Body */
 /* Centering the article */
 body {
-    background-color: rgb(255, 246, 234);
+    background-color: rgb(255, 240, 220);
 }
 
 
@@ -115,9 +115,11 @@ body > main article {
 
 #main-content > div {
     width: 80%;
-    margin-bottom: auto;
 }
 
+#linebr {
+    margin-bottom: 20px;
+}
 
 /* Articles */
 #art1 {
