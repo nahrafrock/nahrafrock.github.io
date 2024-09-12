@@ -1,0 +1,318 @@
+/* Head */
+/* Change content's looks */
+body{
+    font-size: 1vw;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px
+}
+
+/* change logo font */
+#logo {
+    margin: 0px;
+    padding: 8px;
+    font-family: "Fredoka One", sans-serif;
+    width: 8%;
+    text-shadow:
+    1px 1px 0px black, /*bottom right shadow */
+    -1px 1px 0px black, /*bottom left shadow */
+    1px -1px 0px black, /*top right shadow */
+    -1px -1px 0px black; /*top right shadow */
+}
+
+/* change header background colour */
+body > header {
+    background-color:rgb(252, 190, 183);
+    color: rgb(255, 255, 255);
+}
+
+/* Insert flexbox for parent header */
+#main-header{
+    display: flex;
+    height: 12vh;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* insert flexbox on parent ul tag */
+#nav-ul{
+    display: flex;
+}
+
+#nav-ul > li {
+    padding: 32px;
+    margin: 16px;
+}
+
+/* removing bullet points from links */
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+/* removing underline from links */
+.navbut {
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 30%;
+}
+
+
+#AG {
+    display: flex;
+}
+
+
+#sectionAG {
+    margin-top: 20px;
+}
+
+
+#sectioncountries {
+    margin-top: 20px;
+}
+
+#countries {
+    display: flex;
+}
+
+
+#flagsection {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.Flag {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#Country {
+    text-align: center;
+}
+
+
+/* Body */
+/* Centering the article */
+body > main article {
+    width: 70%;
+    margin: auto;
+}
+
+
+#main-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#main-content > div {
+    width: 80%;
+}
+
+
+/* Articles */
+#art1 {
+    width: 100%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+/* centering image in article 1 */
+.rafflesia {
+    display: block;
+    height: 100px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#pics {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly
+}
+
+
+#fauna {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly
+}
+
+
+#fauna-ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#fauna-ul > li {
+    padding: 3px;
+    margin: 16px;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+/* .beach {  
+    display: block;
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+
+.forest {
+    display: block;
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.walkway {
+    display: block;
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.jetty {
+    display: block;
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}*/
+
+
+#art2 {
+    width: 100%;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+#art3 {
+    width: 100%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+#art4 {
+    width: 100%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+/* FAQ */
+#FAQ {
+    display: flex;
+    list-style: none;
+    width: 90%;
+}
+
+
+#FAQ > div{
+    margin-right: 100px;
+    width: 50%;
+}
+
+#Author {
+    margin-bottom: 60px;
+}
+
+/* Separating FAQs individually */
+/*#no1{
+    margin-right: 100px;
+    width: 50%;
+}
+
+#no2{
+    margin-left: 100px;
+    width: 50%;
+}*/
+
+
+/* Foot */
+footer {
+    height: 12vh;
+    font-size: 1vw;
+}
+
+
+/* adding background colour to footer */
+body > footer{
+    background-color:rgb(252, 190, 183);
+    color: rgb(255, 255, 255);
+    display: flex;
+}
+
+
+footer > h2 {
+    text-align: left;
+}
+
+
+/* aligning the form center */
+form {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* aligning the form's header center */
+#h2form { 
+    text-align: center;
+}
+
+/* removing margins from list */
+ul{
+    margin: 0px;
+}
+
+img {
+    border-radius: 10%;
+}
+
+/* insert footer flexbox */
+
+#footer-ul {
+    display: flex;
+    list-style: none;
+}
+
+#footer-ul > div > li {
+    margin-left: 12px;
+    margin-top: 6px;
+}
+
+#footer-ul > div > li > a{
+    color: white;
+    text-decoration: none;
+}
+
+
+#logo2 {
+    font-size: 18px;
+    margin-left: 20px;
+    /* margin: 0px; */
+    padding: 8px;
+    font-family: "Fredoka One", sans-serif;
+    width: 8%;
+    text-shadow:
+    1px 1px 0px black, /*bottom right shadow */
+    -1px 1px 0px black, /*bottom left shadow */
+    1px -1px 0px black, /*top right shadow */
+    -1px -1px 0px black; /*top right shadow */
+}
