@@ -98,7 +98,7 @@ body > header > nav > ul {
 /* Body */
 /* Centering the article */
 body {
-    background-color: rgb(255, 236, 219);
+    background-color: rgb(255, 255, 255);
 }
 
 
@@ -240,7 +240,7 @@ body > main article {
 
 
 #ig {
-    margin-bottom: 90px;
+    margin-bottom: 100px;
 }
 /* Separating FAQs individually */
 /*#no1{
