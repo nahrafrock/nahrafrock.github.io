@@ -79,6 +79,7 @@ body > header > nav > ul {
 
 
 #flagsection {
+    display: flex;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -87,6 +88,39 @@ body > header > nav > ul {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+#flagnav {
+    display: flex;
+}
+
+
+.relatedsingle {
+    display: block;
+    font-size: 22px;
+    font-weight: 700;
+    color: rgb(252, 190, 183);
+    line-height: 1.3;
+    font-family: "Fredoka One", sans-serif;
+    text-transform: uppercase;
+    text-align: left;
+    padding: .5rem 1rem;
+    border-left: 15px solid rgb(252, 190, 183);
+}
+
+
+#flag-ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+#flag-ul > li {
+    padding: 3px;
+    margin-right: 50px;
+    list-style: none;
+    text-decoration: none;
 }
 
 
@@ -218,6 +252,27 @@ body > main article {
 
 
 #art4 {
+    width: 100%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+#art5 {
+    width: 100%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+#art6 {
+    width: 100%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+#art7 {
     width: 100%;
     text-align: justify;
     text-justify: inter-word;
