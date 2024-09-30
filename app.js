@@ -12,3 +12,12 @@ document.addEventListener("DOMContentLoaded", () => {
         })
     }
 })
+
+
+function navigateToLink() {
+    var select = document.getElementById("dropdown");
+    var url = select.options[select.selectedIndex].value;
+    if (url) {
+        window.location.href = url;
+    }
+}
