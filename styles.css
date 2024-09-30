@@ -78,6 +78,10 @@ body > header > nav > ul {
 }
 
 
+#country {
+    display: flex;
+}
+
 #flagsection {
     display: flex;
     margin-top: 30px;
