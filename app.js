@@ -21,3 +21,15 @@ function navigateToLink() {
         window.location.href = url;
     }
 }
+
+function randomPage() {
+    const pages = [
+        "index.html",
+        "indo.html",
+        "phil.html",
+        "cambodia.html",
+        "thai.html"
+    ];
+    const randomIndex = Math.floor(Math.random() * pages.length);
+    window.location.href = pages[randomIndex];
+}
