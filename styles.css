@@ -17,6 +17,10 @@ body{
     -1px 1px 0px black, /*bottom left shadow */
     1px -1px 0px black, /*top right shadow */
     -1px -1px 0px black; /*top right shadow */
+    text-decoration: none;
+    color: inherit;
+    align-items: center;
+    font-size: larger;
 }
 
 /* change header background colour */
