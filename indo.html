@@ -9,7 +9,7 @@
     <!-- Website title -->
     <title>Indonesia's Amazing animals</title>
 </head>
-<body>
+<body onload="redirectToPage();">
         <header id="main-header">
         <!-- contentpage -->
          <h1 id="logo">AnimalWiki</h1>
@@ -56,11 +56,12 @@
                     <!-- Filter by country -->
                     <label for="country">Country:</label>
                     <select name="country" id="countries">
-                        <option href="index.html" value="Malaysia">Malaysia</option>
-                        <option href="indo.html "value="Indonesia">Indonesia</option>
-                        <option href="thai.html" value="Thailand">Thailand</option>
-                        <option href="cambodia.html" value="Cambodia">Cambodia</option>
-                        <option href="phil.html" value="Philipines">Philipines</option>
+                        <option value="">Select a country</option>
+                        <option value="index.html">Malaysia</option>
+                        <option value="indo.html">Indonesia</option>
+                        <option value="thai.html">Thailand</option>
+                        <option value="cambodia.html">Cambodia</option>
+                        <option value="phil.html">Philipines</option>
                     </select>
                 </section>
             </aside>

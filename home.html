@@ -9,7 +9,7 @@
     <!-- Website title -->
     <title>Malaysia's Amazing animals</title>
 </head>
-<body>
+<body onload="redirectToPage();">
         <header id="main-header">
         <!-- contentpage -->
          <nav>
@@ -60,12 +60,13 @@
                 <section id="sectioncountries">
                     <!-- Filter by country -->
                     <label for="country">Country:</label>
-                    <select name="country" id="countries" onchange="navigateToLink()">
-                        <option href="index.html" value="Malaysia">Malaysia</option>
-                        <option href="indo.html "value="indo.html">Indonesia</option>
-                        <option href="thai.html" value="Thailand">Thailand</option>
-                        <option href="cambodia.html" value="Cambodia">Cambodia</option>
-                        <option href="phil.html" value="Philipines">Philipines</option>
+                    <select name="country" id="countries">
+                        <option value="">Select a country</option>
+                        <option value="index.html">Malaysia</option>
+                        <option value="indo.html">Indonesia</option>
+                        <option value="thai.html">Thailand</option>
+                        <option value="cambodia.html">Cambodia</option>
+                        <option value="phil.html">Philipines</option>
                     </select>
                 </section>
             </aside>

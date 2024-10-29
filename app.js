@@ -33,3 +33,20 @@ function randomPage() {
     const randomIndex = Math.floor(Math.random() * pages.length);
     window.location.href = pages[randomIndex];
 }
+
+function redirectToPage() {
+    const selectElements = ['AG', 'countries'];
+
+    selectElements.forEach(id => {
+        const selectElement = document.getElementById(id);
+        if (selectElement) {
+            selectElement.onchange = function () {
+                const selectedValue = selectElement.value;
+                if (selectedValue) {
+                    location.href = selectedValue;
+                }
+            }
+        }
+    });
+}
+
